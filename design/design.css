@@ -164,11 +164,11 @@ strong {
 }
 
 @media (min-width: 350px) and (max-width: 750px) {
-    /* Modifications pour les écrans entre 350px et 750px de large */
+   
     
     .container {
-        width: 100%; /* Permet à la largeur du container d'être responsive */
-        padding: 1rem; /* Ajoute un peu de padding pour l'espacement */
+        width: 100%; 
+        padding: 1rem;
     }
 
     .header {
@@ -177,41 +177,41 @@ strong {
     }
 
     #omelette {
-        width: 100%; /* Adapte l'image à la largeur de son container */
-        margin-top: 1rem; /* Ajuste l'espacement au-dessus de l'image */
+        width: 100%; 
+        margin-top: 1rem;
         align-self: center;
     }
 
     h1 {
-        font-size: 28px; /* Réduit la taille du titre */
-        text-align: center; /* Centre le titre sur l'écran */
+        font-size: 28px; 
+        text-align: center;
     }
 
     .main {
-        margin-left: 1rem; /* Réduit les marges latérales */
+        margin-left: 1rem;
         margin-right: 1rem;
     }
 
     .pinkList ul {
-        margin-left: 1.5rem; /* Réduit la marge gauche */
+        margin-left: 1.5rem;
     }
 
     h3 {
-        margin-left: 1.5rem; /* Réduit la marge à gauche */
+        margin-left: 1.5rem;
     }
 
     .stats {
-        flex-direction: column; /* Change la direction de la flexbox pour les petits écrans */
-        align-items: center; /* Centre les éléments */
+        flex-direction: column;
+        align-items: center;
     }
 
     .info, .quantity, #grams, #protein, #carbs {
-        transform: translateX(0); /* Supprime les translations qui décalent ces éléments */
-        margin-bottom: 1rem; /* Ajoute un espacement en bas */
+        transform: translateX(0);
+        margin-bottom: 1rem;
     }
 
     .attribution {
-        font-size: 12px; /* Réduit la taille de la police pour la petite taille d'écran */
-        margin-top: 1rem; /* Réduit l'espacement au-dessus de la section attribution */
+        font-size: 12px;
+        margin-top: 1rem;
     }
 }
