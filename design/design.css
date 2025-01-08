@@ -1,0 +1,164 @@
+:root {
+    --white:         hsl(0, 0%, 100%);
+    --stoneLight:    hsl(30, 54%, 90%);
+    --stoneMiddle:   hsl(30, 18%, 87%);
+    --stoneDark:     hsl(30, 10%, 34%);
+    --stoneVeryDark: hsl(24, 5%, 18%);
+    --brownDark:     hsl(14, 45%, 36%);
+    --pinkDark:      hsl(332, 51%, 32%);
+    --pinkLight:     hsl(330, 100%, 98%);
+}
+
+@font-face {
+    font-family: youngSerif;
+    src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: outfit;
+    src: url(../assets/fonts/outfit/static/Outfit-Regular.ttf);
+}
+
+@font-face {
+    font-family: outfitBold;
+    src: url(../assets/fonts/outfit/static/Outfit-Bold.ttf);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--stoneLight);
+    font-family: outfit;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 750px;
+    background-color: var(--white);
+    border-radius: 15px;
+}
+
+#omelette {
+    width: 675px;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 2rem;
+}
+
+.header {
+    align-self: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+h1 {
+    font-family: youngSerif;
+    font-size: 35px;
+    letter-spacing: 0.1rem;
+}
+
+.pinkList {
+    background-color: var(--pinkLight);
+    line-height: 2.225rem;
+    border-radius: 7.5px;
+}
+
+.pinkList ul {
+    margin-left: 2.5rem;
+}
+
+h3 {
+    color: var(--pinkDark);
+    margin-left: 2.5rem;
+}
+
+h2 {
+    font-family: youngSerif;
+    color: var(--brownDark);
+    letter-spacing: 0.1rem;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.ingredients {
+    line-height: 2.225rem;
+}
+
+.ingredients ul {
+    transform: translateX(-3%);
+}
+
+.instructions {
+    line-height: 1.6rem;
+}
+
+.instructions li {
+    margin-bottom: 0.7rem;
+}
+
+.instructions ol {
+    transform: translateX(-3%);
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+}
+
+.info {
+    transform: translateX(7.5rem);
+}
+
+.quantity {
+    text-align: left !important;
+    transform: translateX(20rem);
+    color: var(--brownDark);
+    font-weight: bold;
+}
+
+#grams {
+    transform: translateX(22.2rem);
+}
+
+#protein {
+    transform: translateX(20.5rem);
+}
+
+#carbs {
+    transform: translateX(21rem);
+}
+
+.nutrition {
+    margin-bottom: 2rem;
+}
+
+.line {
+    width: 100%;
+}
+
+.attribution {
+    font-size: 13px;
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+    margin-top: 1.5rem;
+}
+
+.attribution a {
+    transition: color 0.3s ease;
+}
+
+.attribution a:hover {
+    color: red;
+}
